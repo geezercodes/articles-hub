@@ -13,7 +13,7 @@
     "express": "^4.16.2",
     "helmet": "^3.11.0",
     "history": "^4.7.2",
-    "marked": "^0.3.14",
+    "marked": "^0.8.0",
     "medium-editor": "^5.23.3",
     "medium-editor-insert-plugin": "^2.5.0",
     "mongoose": "^5.0.6",
@@ -29,7 +29,7 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
-    "react-scripts": "1.1.1",
+    "react-scripts": "^3.3.0",
     "redux": "^3.7.2",
     "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.6",
@@ -45,5 +45,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
