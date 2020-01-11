@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+
 let ArticleSchema = new mongoose.Schema(
     {
         text: String,
