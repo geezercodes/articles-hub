@@ -19,10 +19,10 @@ This is a [Medium](https://medium.com) clone built using [React.js](https://reac
 - Clap a story
 
 ### Installation
-* Git clone this repo [here](https://github.com/krissnawat/medium-clone-on-node).
+* Git clone this repo [here](https://github.com/geezerP/articles-hub.git).
 * Move into the folder from your terminal:
 ```sh
-    cd medium-clone-on-node
+    cd articles-hub
 ```
 * Run `npm install` to install node dependencies.
 * Start MongoDB instance: `mongod`.
