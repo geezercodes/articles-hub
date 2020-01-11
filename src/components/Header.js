@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
+
 class Header extends Component {
     render() {
         return ( 
@@ -14,7 +15,9 @@ class Header extends Component {
             </nav>
         </div>
     </div>
+
     <div data-behavior="progress-bar" className="progress-bar"></div>
+
     <nav data-behavior="animated-navbar" className="navbar navbar-default navbar-fixed-top is-inView">
         <div className="container-fluid col-md-10 col-md-offset-1">
             <div className="navbar-header">
@@ -25,12 +28,14 @@ class Header extends Component {
             <ul className="nav navbar-nav filter-links">
                 <li><a className="" href="/">Top stories</a></li>
             </ul>
+
             <div className="folding-nav">
                 <ul className="nav navbar-nav navbar-right">
                     {this.props.isAuth ? <li className="new-post-button"><a className="button" data-behavior="trigger-overlay" href="/editor">Write a story</a></li> : ''}
                     {this.props.isAuth ? '' : <li onClick={this.props.openSignInWith} className="sign-in-button"><a className="button green-border-button" data-behavior="trigger-overlay" href="#">Sign in / Sign up</a></li>}
                 </ul>
             </div>
+
         </div>
     </nav>
 </div>

@@ -4,6 +4,7 @@ import {
     follow,
     toggleOpen
 } from './../redux/actions/actions'
+
 /** renders bg white when user not follow, render green when followed */
 class FollowButton extends Component {
     constructor(props) {
